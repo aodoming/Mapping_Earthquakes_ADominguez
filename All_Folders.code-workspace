@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "Mapping_Single_Points"
+		},
+		{
+			"path": "Mapping_Multiple_Points"
+		},
+		{
+			"path": "Simple_Map"
+		},
+		{
+			"path": "Mapping_Lines"
+		}
+	],
+	"settings": {}
+}
