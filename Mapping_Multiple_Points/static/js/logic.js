@@ -82,6 +82,19 @@ cityData.forEach(function(city) {
   	.addTo(map);
 });
 
+// Skill Drill
+// Edit the logic.js file to create an orange circle popup marker for each city, 
+// with a lineweight of 4, a radius where the population number is decreased by 200,000, 
+//  that's on a dark map
+
+// cityData.forEach(function(city) {
+// 	console.log(city)
+// 	L.circleMarker(city.location, {
+// 		radius: city.population/200000,
+// 		color: "orange"
+// 	})
+// 	.bindPopup("<h2>" + city.city + ", " + city.state + "</h2> <hr> <h3>Population " + city.population.toLocaleString()+ "</h3>")
+//   	.addTo(map);
 
 // Create the tile layer that will be the background of our map.
 let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
