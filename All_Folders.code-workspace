@@ -11,6 +11,9 @@
 		},
 		{
 			"path": "Mapping_Lines"
+		},
+		{
+			"path": "Mapping_GeoJSON_Points"
 		}
 	],
 	"settings": {}
