@@ -24,28 +24,6 @@ console.log("working");
 				"coordinates":[-122.375,37.61899948120117]}}
 	]};
 
-// Grabbing our GeoJSON data. // The pointToLayer Function
-// Display data on a map with a popup marker, bind the marker with the GeoJSON layer, L.geoJSON(), using a callback function.
-	// L.geoJson(sanFranAirport, {
-	// 	// We turn each feature into a marker on the map.
-	// 	pointToLayer: function(feature, latlng) {
-	// 	console.log(feature);
-	// 	return L.marker(latlng)
-	// 	.bindPopup("<h2>" + feature.properties.name + "</h2>");
-	// 	}
-
-	// }).addTo(map);
-
-// The onEachFeature Function
-// Adds a popup marker for each feature and add data from the properties of the JavaScript object. 
-	// L.geoJson(sanFranAirport, {
-	// 	onEachFeature: function(feature, layer) {
-	// 	console.log(layer);
-	// 	layer.bindPopup()
-	// 	.bindPopup("<h3>" + "Airport code:"+ feature.properties.faa + "</h3>" + "<h3>" +"Airport name:" + feature.properties.name + "</h3>")
-	// 	 }
-	// 	}).addTo(map);
-
 // Create the tile layer that will be the background of our map.
 	let light = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/{z}/{x}/{y}?access_token={accessToken}', {
 	attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -64,8 +42,8 @@ console.log("working");
 // Add both map variables to a new variable, baseMaps.
 // Create a base layer that holds both maps.
 	let baseMaps = {
-		Light: light,
-		Dark: dark
+		Day_Navigation: light,
+		Night_Navigation: dark
 	};
 
 // Create the map object with center, zoom level and default layer.
@@ -78,18 +56,28 @@ console.log("working");
 // Pass our map layers into our layers control and add the layers control to the map.
 	L.control.layers(baseMaps).addTo(map);
 
-// Accessing the airport GeoJSON URL
-	//let airportData = "https://raw.githubusercontent.com/aodoming/Mapping_Earthquakes_ADominguez/Mapping_GeoJSON_Points/majorAirports.json";
-
 // Accessing the Toronto airline routes GeoJSON URL.
-let torontoData = "https://raw.githubusercontent.com/aodoming/Mapping_Earthquakes_ADominguez/Mapping_GeoJSON_Points/torontoRoutes.json";
+let torontoData = "https://raw.githubusercontent.com/aodoming/Mapping_Earthquakes_ADominguez/Mapping_GeoJSON_Linestrings/torontoRoutes.json";
 
+// Create a style for the lines.
+	let myStyle = {
+		color: "#ffffa1",
+		weight: 2
+	}
+
+//Skill Drill
 // Grabbing our GeoJSON data.
-d3.json(torontoData).then(function(data) {
-    console.log(data);
-  // Creating a GeoJSON layer with the retrieved data.
-  L.geoJson(data).addTo(map);
-});
+	d3.json(torontoData).then(function(data) {
+		console.log(data);
+	// Creating a GeoJSON layer with the retrieved data.
+	L.geoJson(data, {
+		//color:'#ffffa1',
+		//weight:2,
+		style: myStyle,
+		onEachFeature: function(feature, layer) {
+		layer.bindPopup("<h3> Airline:" + feature.properties.airline + "</h3> <hr><h3> Destination:" + feature.properties.dst + "</h3>");
+		}
 
-// Then we add our 'graymap' tile layer to the map.
-streets.addTo(map);
+	})
+	.addTo(map);
+	});
