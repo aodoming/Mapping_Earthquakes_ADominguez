@@ -76,7 +76,7 @@ console.log("working");
         return {
         opacity: 1,
         fillOpacity: 1,
-        fillColor: "#ffae42",
+        fillColor: getColor(feature.properties.mag),
         color: "#000000",
         radius: getRadius(feature.properties.mag),
         stroke: true,
@@ -84,6 +84,25 @@ console.log("working");
         };
     }
 
+// This function determines the color of the circle based on the magnitude of the earthquake.
+    function getColor(magnitude) {
+        if (magnitude > 5) {
+        return "#ea2c2c";
+        }
+        if (magnitude > 4) {
+        return "#ea822c";
+        }
+        if (magnitude > 3) {
+        return "#ee9c00";
+        }
+        if (magnitude > 2) {
+        return "#eecc00";
+        }
+        if (magnitude > 1) {
+        return "#d4ee00";
+        }
+        return "#98ee00";
+    }
 // This function determines the radius of the earthquake marker based on its magnitude.
 // Earthquakes with a magnitude of 0 will be plotted with a radius of 1.
     function getRadius(magnitude) {
@@ -104,6 +123,6 @@ console.log("working");
             style: styleInfo
             }).addTo(map);
         });
-
+        
 // Then we add our 'graymap' tile layer to the map.
-streets.addTo(map);
+streets.addTo(map); 
