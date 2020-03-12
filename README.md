@@ -48,3 +48,6 @@ Add an overlay to allow the user to toggle off and on the earthquake and tectoni
 * Adding interactivity to maps using JavaSCript ES6.
 * Rendering maps on a local server.
 
+### Live Demo
+View a Live Demo of Mapping Earthquakes
+
