@@ -1,7 +1,7 @@
 ## Description:
 Creating insightful data visualizations with interactive maps and features on earthquakes from around the world.
 
-### Situation/Task Summary:
+### Situation/Task
 Supporting websites and mobile application development use the latest earthquake GEOJSON 
 data to traverse and retrieve the earthquake data by using JavaScript and the D3 and Leaflet
 libraries and plot the data on a mapbox map through an Application Programming Interface (API) request.
