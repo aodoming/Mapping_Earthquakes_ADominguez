@@ -11,13 +11,13 @@ On the map the magnitude and location of each earthquake will be shown in a pop-
 Add an overlay to allow the user to toggle off and on the earthquake and tectonic data, and set the streets map as the default.
 
 ### Approach
-•	Extracted GEoJSON data from https://github.com/fraxen/tectonicplates.
-•	 Used Leaflet.js API to populate a geographical map with GeoJSON earthquake data from a URL.
-•	 Made an API call to the tectonic plate data using d3.json().
-•	Added the data using the L.geoJSON() layer.
-•	Style the tectonic plate LineString data to stand out on the map.
-•	Added the tectonic plate GeoJSON data as an overlay with the earthquake data to show relationship between the location and frequency of earthquake activities and tectonic plates.
-•	Added a third map style as an additional tile layer to allow the user to select from three different map styles.
+*	Extracted GEoJSON data from https://github.com/fraxen/tectonicplates.
+*	 Used Leaflet.js API to populate a geographical map with GeoJSON earthquake data from a URL.
+*	 Made an API call to the tectonic plate data using d3.json().
+*	Added the data using the L.geoJSON() layer.
+*	Style the tectonic plate LineString data to stand out on the map.
+*	Added the tectonic plate GeoJSON data as an overlay with the earthquake data to show relationship between the location and frequency of earthquake activities and tectonic plates.
+*	Added a third map style as an additional tile layer to allow the user to select from three different map styles.
 
 
 ### Results
