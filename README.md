@@ -27,7 +27,7 @@ Add an overlay to allow the user to toggle off and on the earthquake and tectoni
 
 
 ### Things Learned
-*	Creating, adding, committing, pushing and merging a branch from master branch on GitHub.
+*	Creating, adding, committing, pushing and merging multiple branches from master branch on GitHub.
 *	Retrieving data from a GeoJSON file.
 *	Making API requests to a serve.
 *	Populating geographical maps using JavaScript and the Data-Driven Documents (D3) library.
