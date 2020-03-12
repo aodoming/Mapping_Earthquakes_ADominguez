@@ -1,4 +1,4 @@
-## Description:
+## Description
 Creating insightful data visualizations with interactive maps and features on earthquakes from around the world.
 
 ### Situation/Task
@@ -24,19 +24,19 @@ Add an overlay to allow the user to toggle off and on the earthquake and tectoni
 
 * Simple Map - Multiple GeoJSON Points
 
-<img align=" center" width="650" src="/pics/Simple_Multiple_Points.png"><br/><br/><br/><br/>
+<img align=" center" width="650" src="/pics/Simple_Multiple_Points.png"><br/><br/><br/>
 
 
 * Map - Satellite Tectonic Plates
 * Color coded earthquakes based on magnitude.
 * Features magnitude and location popups and also a legend describing magnitude by intensity.
 
-<img align="center" width="650" src="/pics/Earthquake_satellite2_past7days.png"><br/><br/><br/><br/>
+<img align="center" width="650" src="/pics/Earthquake_satellite2_past7days.png"><br/><br/><br/>
 
 
 * Map - Streets Tectonic Plates
 
-<img align="center" width="650" src="/pics/streets_tectonic_plates.png"><br/><br/><br/><br/>
+<img align="center" width="650" src="/pics/streets_tectonic_plates.png"><br/><br/><br/>
 
 
 ### Things Learned
