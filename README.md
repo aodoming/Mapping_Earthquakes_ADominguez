@@ -1,7 +1,7 @@
-## Description
+## DESCRIPTION
 Creating insightful data visualizations with interactive maps and features on earthquakes from around the world.
 
-### Situation/Task
+### SITUATION/TASK
 Supporting websites and mobile application development use the latest earthquake GEOJSON 
 data to traverse and retrieve the earthquake data by using JavaScript and the D3 and Leaflet
 libraries and plot the data on a mapbox map through an Application Programming Interface (API) request.
@@ -10,7 +10,7 @@ On the map the magnitude and location of each earthquake will be shown in a pop-
 
 Add an overlay to allow the user to toggle off and on the earthquake and tectonic data, and set the streets map as the default.
 
-### Approach
+### APPROACH
 *	Extracted GEoJSON data from https://github.com/fraxen/tectonicplates.
 *	 Used Leaflet.js API to populate a geographical map with GeoJSON earthquake data from a URL.
 *	 Made an API call to the tectonic plate data using d3.json().
@@ -20,7 +20,7 @@ Add an overlay to allow the user to toggle off and on the earthquake and tectoni
 *	Added a third map style as an additional tile layer to allow the user to select from three different map styles.
 
 
-### Results
+### RESULTS
 
 * Simple Map - Multiple GeoJSON Points
 
@@ -39,7 +39,7 @@ Add an overlay to allow the user to toggle off and on the earthquake and tectoni
 <img align="center" width="650" src="/pics/streets_tectonic_plates.png"><br/><br/><br/>
 
 
-### Things Learned
+### THINGS LEARNED
 *	Creating, adding, committing, pushing and merging multiple branches from master branch on GitHub.
 *	Retrieving data from a GeoJSON file.
 *	Making API requests to a serve.
@@ -48,6 +48,6 @@ Add an overlay to allow the user to toggle off and on the earthquake and tectoni
 * Adding interactivity to maps using JavaSCript ES6.
 * Rendering maps on a local server.
 
-### Live Demo
+### LIVE DEMO
 View a ![Live Demo]("https://aodoming.github.io/Mapping_Earthquakes_Deploy/") of Mapping Earthquakes
 
