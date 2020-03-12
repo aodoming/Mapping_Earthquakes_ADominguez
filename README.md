@@ -28,11 +28,11 @@ Add an overlay to allow the user to toggle off and on the earthquake and tectoni
 
 * Color coded earthquakes based on magnitude.
 * Features magnitude and location popups and also a legend describing magnitude by intensity.
-<img align="center" width="600" src="/pics/Earthquake_satellite2_past7days.png"><br/><br/><br/><br/><br/><br/>
+<img align="right" width="600" src="/pics/Earthquake_satellite2_past7days.png"><br/><br/><br/><br/><br/><br/>
 
 
 * Map - Streets Tectonic Plates
-<img align="right" width="600" src="/pics/streets_tectonic_plates.png"><br/><br/><br/><br/><br/><br/><br/>
+<img align="left" width="600" src="/pics/streets_tectonic_plates.png"><br/><br/><br/><br/><br/><br/><br/>
 
 
 
