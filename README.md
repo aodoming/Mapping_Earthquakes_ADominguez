@@ -21,7 +21,7 @@ Add an overlay to allow the user to toggle off and on the earthquake and tectoni
 
 
 ### Results
-!(/satellite_tectonic_plates.png)
+![](/pics/satellite_tectonic_plates.png)
 
 
 
