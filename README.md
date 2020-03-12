@@ -1,4 +1,4 @@
-## DESCRIPTION
+# DESCRIPTION
 Creating insightful data visualizations with interactive maps and features on earthquakes from around the world.
 
 ### SITUATION/TASK
@@ -26,13 +26,11 @@ Add an overlay to allow the user to toggle off and on the earthquake and tectoni
 
 <img align=" center" width="650" src="/pics/Simple_Multiple_Points.png"><br/><br/><br/>
 
-
 * Map - Satellite Tectonic Plates
 * Color coded earthquakes based on magnitude.
 * Features magnitude and location popups and also a legend describing magnitude by intensity.
 
 <img align="center" width="650" src="/pics/Earthquake_satellite2_past7days.png"><br/><br/><br/>
-
 
 * Map - Streets Tectonic Plates
 
@@ -48,6 +46,9 @@ Add an overlay to allow the user to toggle off and on the earthquake and tectoni
 * Adding interactivity to maps using JavaSCript ES6.
 * Rendering maps on a local server.
 
+### SOFTWARE/SKILLS USED
+JavaScript, Leaflet.js Application Programming Interface (API), URL, D3 Library
+
 ### LIVE DEMO
-View a ![Live Demo]("https://aodoming.github.io/Mapping_Earthquakes_Deploy/") of Mapping Earthquakes
+View a [Live Demo]("https://aodoming.github.io/Mapping_Earthquakes_Deploy/") of Mapping Earthquakes
 
