@@ -49,5 +49,5 @@ Add an overlay to allow the user to toggle off and on the earthquake and tectoni
 * Rendering maps on a local server.
 
 ### Live Demo
-View a Live Demo ![]("https://aodoming.github.io/Mapping_Earthquakes_Deploy/") of Mapping Earthquakes
+View a ![Live Demo]("https://aodoming.github.io/Mapping_Earthquakes_Deploy/") of Mapping Earthquakes
 
