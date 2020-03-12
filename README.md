@@ -27,6 +27,7 @@ Add an overlay to allow the user to toggle off and on the earthquake and tectoni
 <img align=" center" width="650" src="/pics/Simple_Multiple_Points.png"><br/><br/><br/><br/>
 
 
+* Map - Satellite Tectonic Plates
 * Color coded earthquakes based on magnitude.
 * Features magnitude and location popups and also a legend describing magnitude by intensity.
 
@@ -35,7 +36,7 @@ Add an overlay to allow the user to toggle off and on the earthquake and tectoni
 
 * Map - Streets Tectonic Plates
 
-<img align="center" width="650" src="/pics/streets_tectonic_plates.png"><br/><br/><br/><br/><br/><br/><br/>
+<img align="center" width="650" src="/pics/streets_tectonic_plates.png"><br/><br/><br/><br/>
 
 
 ### Things Learned
@@ -44,6 +45,6 @@ Add an overlay to allow the user to toggle off and on the earthquake and tectoni
 *	Making API requests to a serve.
 *	Populating geographical maps using JavaScript and the Data-Driven Documents (D3) library.
 *	Adding user interface controls via Leaflet.
-*	 Adding interactivity to maps using JavaSCript ES6.
-*	 Rendering maps on a local server.
+* Adding interactivity to maps using JavaSCript ES6.
+* Rendering maps on a local server.
 
