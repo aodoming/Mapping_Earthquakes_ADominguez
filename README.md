@@ -21,7 +21,7 @@ Add an overlay to allow the user to toggle off and on the earthquake and tectoni
 
 
 ### Results
-![](/https://github.com/aodoming/Mapping_Earthquakes_ADominguez/blob/master/pics/Earthquake_past7days.png)
+![](https://github.com/aodoming/Mapping_Earthquakes_ADominguez/blob/master/pics/Earthquake_past7days.png)
 
 
 
