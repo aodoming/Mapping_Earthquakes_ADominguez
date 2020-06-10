@@ -40,7 +40,7 @@ Add an overlay to allow the user to toggle off and on the earthquake and tectoni
 ### THINGS LEARNED
 *	Creating, adding, committing, pushing and merging multiple branches from master branch on GitHub.
 *	Retrieving data from a GeoJSON file.
-*	Making API requests to a serve.
+*	Making API requests to a server.
 *	Populating geographical maps using JavaScript and the Data-Driven Documents (D3) library.
 *	Adding user interface controls via Leaflet.
 * Adding interactivity to maps using JavaSCript ES6.
