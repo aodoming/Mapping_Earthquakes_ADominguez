@@ -46,7 +46,7 @@ Add an overlay to allow the user to toggle off and on the earthquake and tectoni
 * Adding interactivity to maps using JavaSCript ES6.
 * Rendering maps on a local server.
 
-### SOFTWARE
+### SOFTWARE/TOOLS
 JavaScript, Leaflet.js Application Programming Interface (API), URL, D3 Library
 
 ### LIVE DEMO
